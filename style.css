@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* background-color: lightblue; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    background: url('./bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 30%;
+    position: relative;
+
+}
+
+
+.div1-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+}
+
+.logo-font {
+    font-family: "Tac One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin: 0px 10px 0px 15px;
+    font-size: 80px;
+
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 0px 10px 0px 15px;
+
+}
+
+.footer {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.footer a {
+    color: #50C878;
+
+}
+
+.footer a:hover {
+    color: #4F7942;
+    transform: sm;
+}
+
+.div2-1 {
+    padding: 100px 100px 50px 50px;
+}
+
+.para-1 {
+    margin-bottom: 40px;
+}
+
+.div2-2 {
+    background-color: rgb(221, 222, 222);
+    padding: 20px 150px 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* display: grid;
+        grid-template-columns: 50%; */
+    /* column-gap: 10px; */
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 5px;
+    /* justify-content: space-evenly; */
+}
+
+.grid-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-form div label {
+    margin-left: 5px;
+    font-weight: lighter;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+}
+
+.grid-form div input {
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(73, 70, 70);
+
+}
+
+.grid-form div input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
